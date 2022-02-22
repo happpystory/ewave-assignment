@@ -1,49 +1,121 @@
 [{
-    "category": "radio",
+    "category": "Books",
     "price": "50",
-    "manufacturer" : "sony",
+    "manufacturer" : "BrothersGrim",
     "production_date" : "2020/05/30"
   }, 
   {
-    "category": "tech",
+    "category": "Technology",
     "price": "150",
-    "manufacturer" : "panasonic",
+    "manufacturer" : "Sony",
     "production_date" : "2002/01/24"
   },
   {
-    "category": "cars",
-    "price": "37",
-    "manufacturer" : "zootopia",
+    "category": "Electronics",
+    "price": "370",
+    "manufacturer" : "Bosch",
     "production_date" : "2012/12/10"
   },
   {
-    "category": "laptops",
-    "price": "92",
-    "manufacturer" : "apple",
+    "category": "Computers",
+    "price": "1010",
+    "manufacturer" : "Apple",
     "production_date" : "2008/03/05"
   },
   {
-    "category": "television",
-    "price": "12",
-    "manufacturer" : "microsoft",
+    "category": "Automotive",
+    "price": "2112",
+    "manufacturer" : "Audi",
     "production_date" : "2010/01/02"
   },
   {
-    "category": "airplanes",
-    "price": "12",
-    "manufacturer" : "boeing",
+    "category": "Health",
+    "price": "5",
+    "manufacturer" : "Soap inc",
     "production_date" : "1989/10/30"
   },
   {
-    "category": "zeezeetop",
-    "price": "12",
-    "manufacturer" : "sharp",
+    "category": "Arts",
+    "price": "120",
+    "manufacturer" : "Leonardo da Vinci",
     "production_date" : "2021/12/30"
   },
   {
-    "category": "bamboo",
+    "category": "Books",
+    "price": "25",
+    "manufacturer" : "Alphabet",
+    "production_date" : "2020/05/30"
+  }, 
+  {
+    "category": "Technology",
+    "price": "1500",
+    "manufacturer" : "Panasonic",
+    "production_date" : "2002/01/24"
+  },
+  {
+    "category": "Technology",
+    "price": "73",
+    "manufacturer" : "Toshiba",
+    "production_date" : "2002/01/24"
+  },
+  {
+    "category": "Technology",
+    "price": "540",
+    "manufacturer" : "Sharp",
+    "production_date" : "2002/01/24"
+  },
+  {
+    "category": "Technology",
+    "price": "349",
+    "manufacturer" : "Sanyo",
+    "production_date" : "2002/01/24"
+  },
+  {
+    "category": "Electronics",
+    "price": "120",
+    "manufacturer" : "LG",
+    "production_date" : "2012/12/10"
+  },
+  {
+    "category": "Electronics",
+    "price": "157",
+    "manufacturer" : "Samsung",
+    "production_date" : "2012/12/10"
+  },
+  {
+    "category": "Computers",
+    "price": "320",
+    "manufacturer" : "Microsoft",
+    "production_date" : "2008/03/05"
+  },
+  {
+    "category": "Computers",
+    "price": "367",
+    "manufacturer" : "Fujitsu",
+    "production_date" : "2008/03/05"
+  },
+  {
+    "category": "Automotive",
+    "price": "6001",
+    "manufacturer" : "Tesla",
+    "production_date" : "2010/01/02"
+  },
+  {
+    "category": "Automotive",
+    "price": "1400",
+    "manufacturer" : "Toyota",
+    "production_date" : "2010/01/02"
+  },
+  {
+    "category": "Health",
     "price": "12",
-    "manufacturer" : "hp",
-    "production_date" : "2004/04/12"
+    "manufacturer" : "Good Health",
+    "production_date" : "1989/10/30"
+  },
+  {
+    "category": "Arts",
+    "price": "50",
+    "manufacturer" : "Picasso",
+    "production_date" : "2021/12/30"
   }
 ]

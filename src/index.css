@@ -5,23 +5,47 @@
 }
 
 body {
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
-.import_header {
-  background-color: #f1f1f1;
+.header-button {
+  padding: 5px;
+  background-color: #009879;
+  border: none;
+  color: #fff;
+  width: 120px;
+}
+
+.header-button:hover {
+  background-color: rgba(3, 119, 96, 0.855);
+  cursor:pointer;
+}
+
+.header-button:active {
+  background-color: rgb(3, 119, 96);
+}
+
+.header-wrapper {
+  padding: 10px;
+}
+
+.header-wrapper p {
+  padding: 5px 0;
+}
+
+.header-label {
+  font-weight: bold;
 }
 
 table, th, td { 
   border-left: 1px solid #111; 
-  padding: 5px;
+  padding: 10px;
 }
 
 table { 
   border-collapse: collapse;
   width: 100%;
   border-bottom: 1px solid;
-  height: min-content;
 }
 
 thead tr { 
@@ -33,48 +57,86 @@ tbody tr:nth-child(even) {
   background-color: #f1f1f1;
 }
 
-.header { 
-  padding: 10px;
-}
-
 .column { 
   display: flex;
   justify-content: space-between;
 }
 
+.column:hover {
+  cursor: pointer;
+}
 
-
-
-.table-container {
-  display: flex;
+.column-index:hover {
+  cursor: initial;
 }
 
 .sidePanel {
- animation: side-menu 0.5s ease alternate;
- display: grid;
+ position: absolute;
+ display: flex;
+ transition: 0.5s ease; 
+ padding: 10px;
+ background-color: #f1f1f1;
+ box-shadow: 0 1rem 2rem hsl(0 0% 0% / 20%);;
 }
 
 .sidePanel-open {
-  width: 30%; 
-  background-color: #ddd;
-  transition: 0.5s ease;
+  top:0;
+  right: 0;
 }
 
 .sidePanel-closed {
-  width: 0;
-  transition: 0.5s ease;
-
+  right: -250px;
+  top: 0;
 }
 
-.sidePanel-body div {
-  margin: 5px;
+.section {
+  padding: 5px;
 }
 
-@keyframes side-menu {
-  0% {
-    transform:translateX(0)
-  }
-  100% {
-    transform: translateX(100%)
-  }
+.category-section, .price-section, .manufacturer-section, .allExcept-section {
+  border-bottom: 1px solid #ddd;
+  padding: 5px;
+}
+
+input[type='number']{
+  width: 50px;
+} 
+
+input {
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+input:hover {
+  cursor: pointer;
+}
+
+.price-wrapper div {
+  padding: 5px 0;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.sidePanel-button {
+  width: 100%;
+  padding: 5px;
+  background-color: #009879;
+  border: none;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.sidePanel-button:hover {
+  background-color: rgba(3, 119, 96, 0.855);
+  cursor:pointer;
+}
+
+.sidePanel-button:active {
+  background-color: rgb(3, 119, 96);
+}
+
+.apply-button {
+  margin-top: 5px;
 }
